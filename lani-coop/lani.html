@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lani Coop</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* CSS for additional styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            padding-bottom: 50px; /* Allow space for footer */
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        section {
+            text-align: center; /* Centering text within sections */
+            height: 100%; /* Ensure section takes up entire height of parent */
+            margin: 0; /* Remove default margin */
+            padding-top: 25px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            margin-top: 0;
+        }
+        /* Custom CSS to center the list */
+        .centered-list {
+            display: flex;
+            justify-content: center;
+        }
+        header {
+            color: black;
+            background-color:  rgb(220, 215, 215);
+        }
+        #about {
+            background-color: rgb(20, 115, 20);
+        }
+        #about h2{
+            color: white;
+        }
+
+        #membership h2{
+            color:navy;
+        }
+
+        #contact h2{
+            color: navy;
+        }
+
+        #contact2 h2{
+            color: navy;
+        }
+
+
+
+        #membership {
+            background-color: white;
+        }
+        #contact {
+            background-color: rgb(220, 215, 215);
+            padding-bottom: 30px;
+        }
+        #contact2 {
+            background-color: rgb(220, 215, 215);
+        }
+        #services {
+            background-color: rgb(238, 205, 139);
+            padding-bottom: 25px;
+        }
+        #logo {
+            padding: 20px; /* Add padding to space out the logo section */
+            margin: 0px;
+            background-color: rgb(246, 209, 129);
+        }
+        .btn i {
+            font-size: 24px; /* Adjust the icon size as needed */
+        }
+        .btn-container {
+            display: flex;
+            align-items: center;
+            margin-bottom: 5px; /* Add space between button icon containers */
+        }
+
+        #contact .col-md-4 {
+            display: flex;
+            justify-content: center;
+        }
+
+        /* Align text to the right of each button */
+        #contact .btn-container {
+            display: flex;
+            align-items: center;
+            justify-content: center; /* Center button and text */
+        }
+
+        #contact2 .col-md-4 {
+            display: flex;
+            justify-content: center;
+        }
+
+        /* Align text to the right of each button */
+        #contact2 .btn-container {
+            display: flex;
+            align-items: center;
+            justify-content: center; /* Center button and text */
+        }
+
+        /* Custom CSS for responsive layout */
+        @media (min-width: 768px) {
+            #contact {
+                display: none;
+            }
+        }
+        @media (max-width: 767.98px) {
+            #contact2 {
+                display: none;
+            }
+        }
+        .container-fluid {
+            padding-left: 0;
+            padding-right: 0;
+        }
+        .row [class^="col-"] {
+            padding-left: 0;
+            padding-right: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <header>
+                    <h1>LUM AND ABOY AWOH NJINGHEH INITIATIVE COOPERATIVE SOCIETY WITH BOARD OF DIRECTORS</h1>
+                </header>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <section id="logo">
+                    <img src="images/PHOTO-2024-03-31-18-18-52.jpg" alt="Logo" width="400">
+                </section>
+            </div>
+        </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-8">
+                <section id="about">
+                    <h2>About Us</h2>
+                    <p>Our cooperative empowers individuals and fosters
+                        collective action towards a sustainable future. We
+                        specialize in agriculture, providing members with inputs,
+                        materials, and equipment. We prioritize members'
+                        financial well-being and offer education and training
+                        programs. Join us to transform lives, empower
+                        communities, and create lasting impact.</p>
+                </section>
+            </div>
+            <div class="col-md-4">
+                <section id="membership">
+                    <h2>Membership</h2>
+                    <div class="centered-list"> <!-- Container for the list -->
+                        <ul>
+                            <li>Shareholders constitute our members</li>
+                            <li>Only Members shall benefit from our services</li>
+                            <li>Non Members shall pay more for our services</li>
+                            <li>Community services shall be free where available to Members</li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <section id="contact2">
+                    <h2>Contact</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-link icon-btn" onclick="window.location.href='#'"><i class="fas fa-phone"></i></button>
+                        <p>+237 678 512 999</p>
+                    </div>
+                    <div class="btn-container">
+                        <button class="btn btn-link icon-btn" onclick="window.location.href='#'"><i class="fas fa-envelope"></i></button>
+                        <p>lanicoop153@gmail.com</p>
+                    </div>
+                    <div class="btn-container">
+                        <button class="btn btn-link icon-btn" onclick="window.location.href='#'"><i class="fas fa-map-marker-alt"></i></button>
+                        <p>Magba, West Region</p>
+                    </div>
+                </section>
+            </div>
+            <div class="col-md-8">
+                <section id="services">
+                    <h2>Our Services</h2>
+                    <div class="centered-list"> <!-- Container for the list -->
+                        <ul>
+                            <li>Production of Agricultural products and Livestock.</li>
+                            <li>Marketing of Farmers' products.</li>
+                            <li>Provision of Agricultural Inputs to Farmers.</li>
+                            <li>Promotion of Capitalization and Investment.</li>
+                            <li>Transportation services.</li>
+                            <li>Increasing Agriculture and Livestock Productivity.</li>
+                        </ul>  
+                    </div>
+                </section>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <section id="contact">
+                    <h2>Contact</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-link icon-btn" onclick="window.location.href='#'"><i class="fas fa-phone"></i></button>
+                        <p>+237 678 512 999</p>
+                    </div>
+                    <div class="btn-container">
+                        <button class="btn btn-link icon-btn" onclick="window.location.href='#'"><i class="fas fa-envelope"></i></button>
+                        <p>lanicoop153@gmail.com</p>
+                    </div>
+                    <div class="btn-container">
+                        <button class="btn btn-link icon-btn" onclick="window.location.href='#'"><i class="fas fa-map-marker-alt"></i></button>
+                        <p>Magba, West Region</p>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Lani Coop. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/2157b3a958.js" crossorigin="anonymous"></script>
+</body>
+</html>
